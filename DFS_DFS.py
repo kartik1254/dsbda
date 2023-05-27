@@ -18,9 +18,9 @@ def bfs(visited,graph,node,queue):
                 queue.append(neighbour)
 
 def main():
-    visited1 = set() # TO keep track of DFS visited nodes
-    visited2 = set() # TO keep track of BFS visited nodes
-    queue = []       # For BFS
+    visited1 = set() 
+    visited2 = set() 
+    queue = []       
     n = int(input("Enter number of nodes : "))
     graph = dict()
 
